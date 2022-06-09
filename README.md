@@ -22,6 +22,7 @@ print("Find out who you truly desire... (case-sensitive)")
 opening_question = input("Are you boy or girl? ")
 opening_question1 = opening_question.lower()
 
+#Girl Questions
 if opening_question1 == "girl":
     dog_question = input("Yorki or Corgi or Owl? ")
     dog_question1 = dog_question.lower()
@@ -29,18 +30,18 @@ if opening_question1 == "girl":
         print("You desire the strong and brave. You shall marry Harry Potter.")
     elif dog_question1 == "owl":
         print(
-            "You desire the shy and intelligent . You love: Neville Longbottom."
-        )
-    elif dog_question1 == "corgi":
-        food_question = input("Carrots or Mints or Bob ? ")
+            "You desire the shy and intelligent . You love: Neville Longbottom.") 
+            #Three questions
+    elif dog_question1 == "corgi": 
+        food_question = input("Carrots or Mints or Celery ? ")
         food_question1 = food_question.lower()
         if food_question1 == "carrots":
             print(
                 "You value humor and friendship. Your man is: George Weasley.")
         elif food_question1 == "mints":
             print("You desire fame and fortune. Your husband is: Draco Malfoy")
-        elif food_question1 == "bob":
-            print("You desire the quirky and fun-loving, Argus Filch.")
+        elif food_question1 == "celery":
+            print("You desire the quirky and fun-loving, Seamus Finnigan.")
 
 #Boy Questions
 elif opening_question1 == "boy":
@@ -53,10 +54,9 @@ elif opening_question1 == "boy":
     elif color_question1 == "blue":
         drink_question = input("Tea or Coffee or Water? ")
         drink_question1 = drink_question.lower()
-        if drink_question1 == "coffee":
-            print(
-                "You are attracted to the smart and witty, the woman you desire is, Ms. Hermione Granger."
-            )
+        #Three questions
+        if drink_question1 == "coffee": 
+            print("You are attracted to the smart and witty, the woman you desire is, Ms. Hermione Granger.")
         elif drink_question1 == "tea":
             print("You like the shy and smart, you marry Cho Chang.")
         elif drink_question1 == "water":
