@@ -48,7 +48,7 @@ elif opening_question1 == "boy":
     color_question = input("Green or Purple or Blue? ")
     color_question1 = color_question.lower()
     if color_question1 == "green":
-        print("You desire the rude girls, Pansy Parkinson.")
+        print("You desire the rude and manipulative, you paired with Pansy Parkinson.")
     elif color_question1 == "purple":
         print("You desire the kind and sweet . You love: Luna Lovegood.")
     elif color_question1 == "blue":
